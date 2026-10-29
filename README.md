@@ -40,6 +40,8 @@ DELETE /api/students/{id}
 
 Examples:
 
+Successful student creation returns HTTP 201 and a `Location` header for the created student.
+
 ```bash
 curl -X POST http://localhost:8080/api/students -H 'Content-Type: application/json' -d '{"name":"Artem Kostin"}'
 curl http://localhost:8080/api/students
