@@ -100,7 +100,7 @@ git merge feature/kostin-artem-crud
 git push origin main
 ```
 
-For the merge-conflict demonstration, create `feature/kostin-artem-documentation` and change this sentence differently in that branch and in `main`: Student API documentation is maintained in README.md.
+For the merge-conflict demonstration, create `feature/kostin-artem-documentation` and change this sentence differently in that branch and in `main`: Feature branch documentation for the Student API is maintained in README.md.
 
 ## Container demonstration
 
