@@ -1,8 +1,8 @@
 package com.kostinartem.studentapi;
 
+import java.net.URI;
 import java.util.List;
 
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,7 +26,8 @@ public class StudentController {
     @PostMapping
     public ResponseEntity<Student> create(@RequestBody Student student) {
         student.setId(null);
-        return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(student));
+        Student saved = repository.save(student);
+        return ResponseEntity.created(URI.create("/api/students/" + saved.getId())).body(saved);
     }
 
     @GetMapping
