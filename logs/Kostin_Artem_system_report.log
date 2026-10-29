@@ -1,0 +1,60 @@
+Full name: Artem Kostin
+Date and time: Thu Oct 29 02:06:04 PM UTC 2026
+System user: root
+Operating system: Linux
+Linux kernel version: 7.0.14-linuxkit
+CPU information:
+Architecture:                            aarch64
+CPU op-mode(s):                          64-bit
+Byte Order:                              Little Endian
+CPU(s):                                  8
+On-line CPU(s) list:                     0-7
+Vendor ID:                               Apple
+Model name:                              -
+Model:                                   0
+Thread(s) per core:                      1
+Core(s) per cluster:                     8
+Socket(s):                               -
+Cluster(s):                              1
+Stepping:                                0x0
+BogoMIPS:                                48.00
+Flags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 bti afp rpres
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; CSV2, but not BHB
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+Memory information:
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       1.3Gi       3.4Gi        17Mi       3.3Gi       6.5Gi
+Swap:          1.0Gi          0B       1.0Gi
+Disk usage:
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         453G   11G  419G   3% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+virtiofs0       461G  245G  217G  54% /project
+/dev/vda1       453G   11G  419G   3% /etc/hosts
+tmpfs           4.0K     0  4.0K   0% /proc/scsi
+Available disk space:
+Filesystem     Avail Mounted on
+overlay         419G /
+tmpfs            64M /dev
+shm              64M /dev/shm
+virtiofs0       217G /project
+/dev/vda1       419G /etc/hosts
+tmpfs           4.0K /proc/scsi
