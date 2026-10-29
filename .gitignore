@@ -1,0 +1,12 @@
+.gradle/
+build/
+*.tmp
+*.swp
+.idea/
+*.iml
+.vscode/
+*.log
+.env
+.env.*
+*.key
+*.pem
